@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6d00</color>
+    <color name="colorPrimaryDark">#c43c00</color>
+    <color name="colorAccent">#ff9e40</color>
+    <color name="backgroundColor">#f4ebe6</color>
+    <color name="cardColor">#FFFFFF</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorPink">#E880FC</color>
+    <color name="colorBlue">#64FFDA</color>
+    <color name="colorLightBlue">#BBDEFB</color>
+    <color name="colorYellow">#FFC400</color>
+    <color name="colorLightBrown">#A1887F</color>
+</resources>

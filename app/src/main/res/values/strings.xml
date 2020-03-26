@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lara Note</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_note">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="desc">Description</string>
+    <string name="desc_note">Add description for your note ..</string>
+    <string name="tag">Work</string>
+    <string name="title">Title</string>
+    <string name="color">Color</string>
+    <string name="note_color">Note Color</string>
+    <string name="add_note">Add Note</string>
+
+    <string-array name="note_colors_array">
+        <item>#FF0000</item>
+        <item>#800000</item>
+        <item>#FFFF00</item>
+        <item>#00FF00</item>
+        <item>#00FFFF</item>
+        <item>#0000FF</item>
+        <item>#000080</item>
+        <item>#FF00FF</item>
+        <item>#800080</item>
+    </string-array>
+</resources>
