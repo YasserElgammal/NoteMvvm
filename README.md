@@ -14,4 +14,6 @@ Simple Note App - Kotlin - MVVM
 
 ## Upcoming improvements
 
+* Add Search view
+* Add Login / Register
 * Add Note synchronise with Rest-Api
