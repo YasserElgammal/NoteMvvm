@@ -8,8 +8,12 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="com.yasserelgammal.notemv.ui.AddFragment"
-        android:label="fragment_add"
-        tools:layout="@layout/fragment_add" />
+        android:label="@string/add_note"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
     <fragment
         android:id="@+id/listFragment"
         android:name="com.yasserelgammal.notemv.ui.ListFragment"
@@ -25,8 +29,8 @@
     <fragment
         android:id="@+id/editFragment"
         android:name="com.yasserelgammal.notemv.ui.EditFragment"
-        android:label="fragment_edit"
-        tools:layout="@layout/fragment_edit" >
+        android:label="Edit Note"
+        tools:layout="@layout/fragment_edit">
         <argument
             android:name="note"
             app:argType="com.yasserelgammal.notemv.persistence.Note"

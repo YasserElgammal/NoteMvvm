@@ -18,6 +18,9 @@ tools:context=".ui.ListFragment">
     app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        app:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/cardColor"
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

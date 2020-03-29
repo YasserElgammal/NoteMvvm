@@ -30,6 +30,7 @@ class NoteAdapter(
     override fun getItemCount() = notes.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
         holder.bind(item = notes[position])
     }
 
@@ -52,7 +53,8 @@ class NoteAdapter(
             itemView.txtDescription.text = item.description
             itemView.noteColorLayout.setBackgroundColor(item.color)
 
-            //Handle item click
+
+//            Handle item click
             itemView.setOnClickListener {
                 interaction?.onItemSelected(adapterPosition,item)
             }

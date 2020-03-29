@@ -48,7 +48,8 @@ class AddFragment : DaggerFragment() {
             noteColor = color
         }
         btnAdd.setOnClickListener {
-            Navigation.findNavController(requireActivity(),R.id.container).popBackStack()
+            val action = AddFragmentDirections.actionAddFragmentToListFragment()
+            Navigation.findNavController((it)).navigate(action)
         }
 
 

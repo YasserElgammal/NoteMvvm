@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/desc"
                 android:textSize="18sp"
+                android:maxLines="4"
                 android:textStyle="italic" />
 
         </LinearLayout>
