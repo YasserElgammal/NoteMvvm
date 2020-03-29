@@ -10,6 +10,7 @@ Simple Note App - Kotlin - MVVM
 * [Android Jetpack](https://developer.android.com/jetpack)
 * A single-activity architecture, using the [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started) to manage fragment operations
 * Room database
+* Custom View ( For choosing Note Color )
 * Material design
 
 ## Upcoming improvements
