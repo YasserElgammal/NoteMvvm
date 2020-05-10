@@ -30,7 +30,7 @@ class AddFragment : DaggerFragment() {
 
     lateinit var noteViewModel: NoteViewModel
 
-    private var noteColor:Int?=null
+    private var noteColor: Int = Color.TRANSPARENT
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
